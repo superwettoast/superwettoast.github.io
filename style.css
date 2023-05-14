@@ -1,11 +1,39 @@
-#nav-content{
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
+#navshit{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+}
+#nav-btn{
     color: #fff;
+    padding-right: 15px;
+    transition: 200ms;
+    font-family: 'Source Code Pro', monospace;
 }
-
-nav#navbar{
-    display: inline;
-}
-
 body{
     background-color: #000;
+}
+.nav-btn-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40%;
+}
+.svg-1{
+    color: #fff;
+    transition: 350ms;
+}
+.svg-2{
+    color: #fff;
+    transition: 200ms;
+}
+#homebtn:hover > .svg-1{
+    color: #0D6EFF;
+}
+#homebtn:hover > .svg-2{
+    color: #132C6D;
+}
+#nav-btn:hover{
+    color: #0D6EFF;
 }
