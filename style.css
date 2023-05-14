@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 70px;
 }
 #nav-btn{
     color: #fff;
@@ -14,6 +14,12 @@
 }
 body{
     background-color: #000;
+    background: url(https://media.discordapp.net/attachments/1106914883246772285/1107212782618824844/Untitled40_20230514194759.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
 }
 .nav-btn-wrapper{
     display: flex;
