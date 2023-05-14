@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
 #navshit{
     display: flex;
     align-items: center;
@@ -6,18 +7,18 @@
     justify-content: center;
     padding-top: 70px;
 }
-#nav-btn{
+.nav-btn{
     color: #fff;
     padding-right: 15px;
     transition: 200ms;
     font-family: 'Source Code Pro', monospace;
+    filter: drop-shadow(2px 3px 5px rgb(0 0 0));
 }
 body{
     background-color: #000;
     background: url(https://media.discordapp.net/attachments/1106914883246772285/1107212782618824844/Untitled40_20230514194759.png);
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
     padding: 0;
     margin: 0;
 }
@@ -40,6 +41,76 @@ body{
 #homebtn:hover > .svg-2{
     color: #132C6D;
 }
-#nav-btn:hover{
+.projects:hover{
     color: #0D6EFF;
+}
+.about:hover{
+    color: #132C6D;
+}
+#homebtn{
+    filter: drop-shadow(2px 3px 5px rgb(0 0 0));
+}
+#main-content{
+    height: 50vw;
+}
+.footer{
+    background-color: #0a0a0a;
+    width: 100%;
+    height: 30vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+#info{
+    padding-top: 100px;
+    padding-left: 20%;
+    font-family: 'Montserrat', sans-serif;
+}
+.name{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    filter: drop-shadow(2px 3px 5px rgb(0 0 0));
+}
+#aboutme{
+    padding-top: 6px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    filter: drop-shadow(2px 3px 5px rgb(0 0 0));
+}
+
+.hidden{
+    background-color: #ffffff39;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.normal-cursor{
+    cursor: default;
+}
+#footershit1{
+    padding-top: calc(30vh - 40px);
+    position: absolute;
+    color: #1e1e1e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+background: #0b0b0b;
+}
+
+::-webkit-scrollbar-thumb {
+background: #292929;
+border-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #242424;
 }
