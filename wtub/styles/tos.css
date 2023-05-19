@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+#navshit{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 70px;
+}
+.nav-btn{
+    color: #fff;
+    padding-right: 15px;
+    transition: 200ms;
+    font-family: 'Source Code Pro', monospace;
+    filter: drop-shadow(2px 3px 5px rgb(0 0 0));
+}
+body{
+    background-color: #000;
+    padding: 0;
+    margin: 0;
+}
+.nav-btn-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40%;
+}
+.svg-1{
+    color: #fff;
+    transition: 350ms;
+}
+.svg-2{
+    color: #fff;
+    transition: 200ms;
+}
+#homebtn:hover > .svg-1{
+    color: #0D6EFF;
+}
+#homebtn:hover > .svg-2{
+    color: #132C6D;
+}
+.projects:hover{
+    color: #0D6EFF;
+}
+.about:hover{
+    color: #132C6D;
+}
+#homebtn{
+    filter: drop-shadow(2px 3px 5px rgb(0 0 0));
+}
+
+::-webkit-scrollbar-track {
+background: #0b0b0b;
+}
+
+::-webkit-scrollbar-thumb {
+background: #292929;
+border-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #242424;
+}
