@@ -13,7 +13,7 @@
 3. you're allowed to be commited into slave labour without prior notification
 4. you agree to have all your personal information stolen.
 5. you agree to allow us to access info such as:
-6. 
+
 > 1. webcam,
 > 2. device info,
 > 3. apps,
@@ -21,3 +21,9 @@
 > 5. app data,
 > 6. search history,
 > 7. discord dms
+
+<style>
+  body{
+    background-color: #000;
+  }
+</style>
