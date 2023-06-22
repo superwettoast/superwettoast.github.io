@@ -7,11 +7,13 @@
 4. your server is ours now
 
 # privacy
+
 1. we steal all of your messages.
 2. you give WTUB full permission to nuke your server.
 3. you're allowed to be commited into slave labour without prior notification
 4. you agree to have all your personal information stolen.
 5. you agree to allow us to access info such as:
+6. 
 > 1. webcam,
 > 2. device info,
 > 3. apps,
